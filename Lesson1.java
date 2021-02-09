@@ -15,7 +15,7 @@ public class Lesson1 {
         double d = 7.8;
         char c = 123;
         boolean bool = true;
-        String str = "Курс Java";
+       
 
 
     }
