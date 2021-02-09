@@ -35,9 +35,7 @@ public class Lesson1 {
     }
 
     //Задание 4
-    public static boolean foo() {
-        int a = 5;
-        int b = 13;
+    public static boolean task10and20( int a, int b) {
         int sum = a + b;
         if (sum > 10 && sum < 20) {
 
@@ -47,8 +45,7 @@ public class Lesson1 {
     }
 
     //Задание 5
-    public static void bar() {
-        int j = 19;
+    public static void bar(int j) {
         int k = j / 2;
         int l = j % 2;
         System.out.println(l);
@@ -58,13 +55,11 @@ public class Lesson1 {
     }
 
     //Задание 6
-    public static boolean six() {
-        int a = -43;
-        int b = 44;
+    public static boolean six(int a, int b) {
         int c = a - b;
         System.out.println(c);
         if (c > 0) {
-
+        return false;
         } else if (c < 0) {
 
         }
@@ -77,5 +72,5 @@ public class Lesson1 {
     }
 
     //Задание 8
-   
+
 }
