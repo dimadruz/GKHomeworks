@@ -59,8 +59,8 @@ public class Lesson1 {
     }
 
     //Задание 7
-    public static void seven(String Name) {
-        System.out.println("Привет, Меня зовут Дима");
+   public static void seven(String Name) {
+        System.out.println("Привет"+ Name + "!");
     }
 
 
