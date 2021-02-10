@@ -15,13 +15,13 @@ public class Lesson1 {
         double d = 7.8;
         char c = 123;
         boolean bool = true;
-       
+
 
 
     }
 
     //Задание 3
-    public static float bar(float a, float b, float c, float d) {
+    public static float calculate(float a, float b, float c, float d) {
 
         float val = a * (b + (c / d));
         return val;
@@ -65,4 +65,3 @@ public class Lesson1 {
 
 
 }
-
